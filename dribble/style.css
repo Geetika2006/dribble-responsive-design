@@ -1,0 +1,404 @@
+/* @media(min-width:1205px) { */
+    
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+html{
+    font-size:1vw ;
+}
+h1{
+    font-size: 23px;
+    margin-left:89px;
+}
+
+.logo{
+  display: flex;
+  gap:10px;
+  align-items: center;
+}
+.input{
+    border: none;
+    background-color: #eee;
+    border-radius: 16px;
+}
+.input:focus{
+    
+    outline: none;;
+}
+.search-bar{
+    display: flex;
+    background-color: #eee;
+    border-radius: 16px;
+    border:none;
+    width:400px;
+    padding: 0 20px;
+    color: black;
+    justify-content: space-between;
+}
+.search-bar:hover{
+    border:2px solid pink;
+}
+.email{
+    height:0;
+    width:0;
+}
+.side-element{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.search-img{
+    width:24px;
+    object-fit:fill;
+    fill: white;
+    height:24px;
+    color: rgb(240, 248, 255);
+    /* object-fit: cover; */
+    object-position:center;
+    border:none;
+    border-radius: 50%;
+    background-color: rgb(255, 116, 139);
+    transition:0.1s;
+}
+.search-img:hover{
+    width:29px;
+    height:29px;
+    box-shadow: 2px 2px 5px rgb(255, 116, 139 );
+    border: none;
+    cursor:pointer;
+}
+h2{
+    margin-left:89px;
+}
+
+h3{
+    font-size: 18px;
+} 
+.options{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.Sign-up{
+    background-color: white;
+    color: black;
+    padding: 20px auto;
+    border: none;
+    border-radius: 12px;
+    width: 58px;
+    height:40px;
+}
+.Sign-up:hover{
+    color: #7c7b7b;
+}
+h4{
+    font-size: 16px;
+}
+.Log-in:hover{
+    color: #b5b4b4;
+}
+.Log-in{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px auto;
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height:40px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-bio{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    margin-bottom: 20px;
+    padding: 10px auto;
+    margin-left:89px;
+    
+}
+.dribble{
+    object-fit: contain;
+    width:23px;
+}
+.hamburger{
+    stroke:rgb(255, 255, 255);
+}
+p{
+    font-size: 16px;
+  color: #9d9d9d;
+  margin: 0;
+}
+.side-flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right:89px;
+}
+.Get-in-touch{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px auto;
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height:40px;
+}
+icon{
+    font-size: 32px;
+}
+.man{
+    border-radius: 50%;
+    width:70px;
+    height: 70px;
+    object-fit: cover;
+}
+.div1{
+    display: flex;
+    gap:10px;
+    align-items: center;
+   
+}
+.email1{
+    margin: 0px;
+}
+.main{
+   width:80vmax;
+   height: 90vmax;
+   
+   
+   margin:30px  auto;
+   
+}
+.img1{
+    /* background-color: #eee; */
+   width: 900px;
+   height: auto; 
+   /* height: 80vmax; */
+   margin-left: 50%;
+   transform: translate(-50%);
+   padding: 0 auto;
+   border-radius:12px
+    
+}
+.screen{
+    display: flex;
+    align-items: start;
+
+}
+.sidebar{
+    margin-top: 240px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+.sidebar .icon:hover{
+    cursor: pointer;
+}
+
+ @media(max-width:1123px){/* and(min-width:886px){ */
+    .options{
+        display: none;
+    }
+    .hamburger{
+        stroke:black;
+    } 
+}    
+ @media(max-width:961px){/* and(min-width:886px){ */
+    .options{
+        display: none;
+    }
+    .hamburger{
+        stroke:black;
+    } 
+    .sidebar{
+        display:none;
+    }
+    
+    h1{
+        margin:7px 5px ;
+        margin-bottom: 3px;
+    }
+     .main{
+        margin:5px  0;
+          
+       } 
+
+    .img1{
+        
+        /* background-color: #eee; */
+       width: 96.3vw;
+       height: auto;
+       margin-left: 48vw; 
+       
+       border-radius:12px
+        
+    } 
+    h1{
+        font-size:4vmax ;
+    }
+    h2{
+        font-size:3.5vmax ;
+    }
+    h3{
+        font-size:2.6vmax ;
+    }
+    .side-flex{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-right:0px;
+    }
+    .profile{
+        width:95.8vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4px;
+    }   
+    .main-bio{
+        margin: 0;
+    }
+    .nav{
+        gap:2px;
+    }
+    .screen{
+        display: flex;
+        flex-direction: column;
+        
+        margin: 0;
+        
+    } 
+}    
+/* follow */
+@media(max-width:811px){
+    .follow{display: none;}
+/* sign up remove */}
+@media(max-width:779px){/* and(min-width:886px){ */
+    .buttons{
+        display:flex;
+        flex-direction: column-reverse;
+        
+    }
+    .Sign-up{
+        display:none;
+    }
+    h1{
+        font-size:3vmax ;
+    }
+    h2{
+        font-size:2vmax ;
+    }
+    h3{
+        font-size:1vmax ;
+    }
+}
+/* search bar down */
+@media(max-width:700px){/* and(min-width:886px){ */
+    .search-bar{
+        position: absolute;
+        width: 94%;
+        top:50px;
+    }
+    .screen{
+        margin-top: 70px;
+    }
+    .nav{justify-content: space-between ;
+        position: relative;}
+}
+@media(max-width:583px){/* and(min-width:886px){ */
+    .Get-in-touch{
+        display: none;
+    }
+    .side-flex{
+        gap:3px;
+        margin-right:10px;
+    }
+    .email{
+            height:28px;
+            width:28px;
+            
+            border-radius: 50%;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+    }
+}  
+@media(max-width:460px){/* and(min-width:886px){ */
+    h1{
+        font-size: 23px;
+        overflow:auto;
+    }
+    
+    .main{
+        display:block;
+    }
+    .screen{
+        display:block;
+    }
+}  
+
+/* @media(max-width:885px){
+    .options{
+        display: none;
+    }
+    .hamburger{
+        stroke:black;
+    }
+    .main{
+     margin:20px 0;
+    
+    
+       
+    }
+    h1{
+        margin:0 ;
+        margin-bottom: 3px;
+    }
+    .screen{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin: 0;
+        
+    }
+    .img1{
+        width:100vw;
+    }
+
+    .profile{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-bio{
+        display: flex;
+        gap: 0.3px;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px auto;
+        margin-left: 0vmax;
+        
+    }
+    .sidebar{
+        display: none;
+    }
+    .side-flex{
+        display: flex;
+        gap: 0.1px;
+        align-items: center;
+        margin-right: 0vmax;
+    }
+} */ 
